@@ -1,3 +1,3 @@
 # FlutterFirstApp
 
-Basic of Widgets sample
+Widgets sample
