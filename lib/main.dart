@@ -18,7 +18,7 @@ class TestStateLessWidget extends StatelessWidget {
       ),
       body: Center(
         child: Image(
-          image: AssetImage('assets/download.jpeg'),
+          image: AssetImage('assets/bright_spring.webp'),
         )
       ),
       floatingActionButton: FloatingActionButton(
