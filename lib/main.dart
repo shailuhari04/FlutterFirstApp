@@ -17,16 +17,9 @@ class TestStateLessWidget extends StatelessWidget {
         backgroundColor: Colors.red[500],
       ),
       body: Center(
-        child: Text(
-          "Hello Shailendra",
-          style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2,
-              color: Colors.grey[500],
-              fontFamily: 'RobotoSlab'
-          ),
-        ),
+        child: Image(
+          image: NetworkImage('https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-260nw-1048185397.jpg'),
+        )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
