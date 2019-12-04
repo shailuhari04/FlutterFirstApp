@@ -16,10 +16,26 @@ class TestStateLessWidget extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[500],
       ),
-      body: Padding(
-        padding: EdgeInsets.all(50.0),
-        child: Text('Padding'),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text("array of widget is row"),
+          FlatButton(
+            onPressed: (){},
+            color: Colors.grey,
+            child: Text('click me'),
+          ),
+          Container(
+            color: Colors.amber,
+            padding: EdgeInsets.all(20.0),
+             child: Text(
+               'shailendra'
+             ),
+          )
+        ],
       ),
+
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text("Click"),
