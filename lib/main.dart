@@ -17,13 +17,12 @@ class TestStateLessWidget extends StatelessWidget {
         backgroundColor: Colors.red[500],
       ),
       body: Center(
-        child: RaisedButton.icon(
-          icon: Icon(
-            Icons.mail
-          ),
-          onPressed: (){},
-          label: Text('mail me'),
-          color: Colors.lightBlue,
+        child: IconButton(
+          onPressed: (){
+            print('you clicked me');
+          },
+          icon: Icon(Icons.call_received),
+          color: Colors.amber ,
         )
       ),
       floatingActionButton: FloatingActionButton(
