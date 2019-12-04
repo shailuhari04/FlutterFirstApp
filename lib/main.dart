@@ -16,11 +16,9 @@ class TestStateLessWidget extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[500],
       ),
-      body: Container(
-        padding: EdgeInsets.fromLTRB(10,0,20,0),
-        margin: EdgeInsets.all(30.0),
-        color: Colors.grey,
-        child: Text('Padding/Margin'),
+      body: Padding(
+        padding: EdgeInsets.all(50.0),
+        child: Text('Padding'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},

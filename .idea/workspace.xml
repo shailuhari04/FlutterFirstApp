@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="205">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -203,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575438407066</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Use Of IconButton">
+      <created>1575438612446</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575438612446</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Use Of Padding or margin">
+      <created>1575440109881</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575440109881</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -258,7 +272,9 @@
     <MESSAGE value="Use Of FlatButton" />
     <MESSAGE value="Use Of FlatButton onPressed" />
     <MESSAGE value="Use Of RaisedButton with Icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use Of RaisedButton with Icon" />
+    <MESSAGE value="Use Of IconButton" />
+    <MESSAGE value="Use Of Padding or margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use Of Padding or margin" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/widget_test.dart" />
@@ -278,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="205">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
