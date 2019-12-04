@@ -18,6 +18,11 @@ class TestStateLessWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Expanded(
+              flex: 4,
+              child: Image.asset("assets/download.jpeg")
+          ),
+          Expanded(
+            flex: 3,
             child: Container(
               padding: EdgeInsets.all(20.0),
               color: Colors.blue,
@@ -25,6 +30,7 @@ class TestStateLessWidget extends StatelessWidget {
             ),
           ),
           Expanded(
+            flex: 3,
             child: Container(
               padding: EdgeInsets.all(20.0),
               color: Colors.red,
@@ -32,6 +38,7 @@ class TestStateLessWidget extends StatelessWidget {
             ),
           ),
           Expanded(
+            flex: 2,
             child: Container(
               padding: EdgeInsets.all(20.0),
               color: Colors.amber,
