@@ -16,22 +16,24 @@ class TestStateLessWidget extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[500],
       ),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.start,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.center ,
         children: <Widget>[
-          Text("array of widget is row"),
-          FlatButton(
-            onPressed: (){},
-            color: Colors.grey,
-            child: Text('click me'),
+          Container(
+            padding: EdgeInsets.all(20.0),
+            color: Colors.amber,
+            child: Text('one'),
           ),
           Container(
-            color: Colors.amber,
-            padding: EdgeInsets.all(20.0),
-             child: Text(
-               'shailendra'
-             ),
+            padding: EdgeInsets.all(30.0),
+            color: Colors.red,
+            child: Text('two'),
+          ),
+          Container(
+            padding: EdgeInsets.all(40.0),
+            color: Colors.blue,
+            child: Text('three'),
           )
         ],
       ),
