@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Dec 04 11:02:16 IST 2019
+#Wed Dec 04 11:39:31 IST 2019
 4.path=flutter_assets/fonts/RobotoSlab-VariableFont\:wght.ttf
 13.baseType=DIRECTORY
 8.set=ASSET
