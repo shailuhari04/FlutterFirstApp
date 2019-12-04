@@ -17,10 +17,10 @@ class TestStateLessWidget extends StatelessWidget {
         backgroundColor: Colors.red[500],
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
+        child: RaisedButton(
+          onPressed: (){},
+          child: Text("Click Me Raised Button"),
           color: Colors.lightBlue,
-          size: 55.0,
         )
       ),
       floatingActionButton: FloatingActionButton(
