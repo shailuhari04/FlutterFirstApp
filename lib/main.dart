@@ -17,8 +17,10 @@ class TestStateLessWidget extends StatelessWidget {
         backgroundColor: Colors.red[500],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/bright_spring.webp'),
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.lightBlue,
+          size: 55.0,
         )
       ),
       floatingActionButton: FloatingActionButton(
