@@ -17,11 +17,12 @@ class TestStateLessWidget extends StatelessWidget {
         backgroundColor: Colors.red[500],
       ),
       body: Center(
-        child: FlatButton(
-          onPressed: (){
-            print('Button Clicked');
-          },
-          child: Text("Click Me Flat Button"),
+        child: RaisedButton.icon(
+          icon: Icon(
+            Icons.mail
+          ),
+          onPressed: (){},
+          label: Text('mail me'),
           color: Colors.lightBlue,
         )
       ),
