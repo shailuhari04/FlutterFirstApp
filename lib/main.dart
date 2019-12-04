@@ -17,9 +17,9 @@ class TestStateLessWidget extends StatelessWidget {
         backgroundColor: Colors.red[500],
       ),
       body: Center(
-        child: RaisedButton(
+        child: FlatButton(
           onPressed: (){},
-          child: Text("Click Me Raised Button"),
+          child: Text("Click Me Flat Button"),
           color: Colors.lightBlue,
         )
       ),
